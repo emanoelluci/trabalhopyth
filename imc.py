@@ -1,0 +1,7 @@
+peso = input("QUAL O SEU PESO?")
+print(peso)
+altura = input("QUAL A SUA ALTURA?")
+print(altura)
+altura2 = (float(altura) * float(altura))
+imc = (float(peso) / (altura2))
+print("imc", imc)
